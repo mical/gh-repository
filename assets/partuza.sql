@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: partuza
 -- ------------------------------------------------------
--- Server version	5.0.51a
+-- Server version	5.0.67
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -111,6 +111,7 @@ CREATE TABLE `applications` (
   `author_email` char(128) default NULL,
   `description` mediumtext,
   `settings` mediumtext,
+  `views` mediumtext,
   `version` varchar(64) NOT NULL,
   `height` int(11) NOT NULL default '0',
   `scrolling` int(11) NOT NULL default '0',
@@ -602,4 +603,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-07-04 10:43:15
+-- Dump completed on 2008-10-16 12:43:53
