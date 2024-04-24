@@ -1,0 +1,6 @@
+- pipeline: "test"
+  events:
+  - type: "PUSH"
+    refs:
+    - ":default"
+  fail_on_prepare_env_warning: true
